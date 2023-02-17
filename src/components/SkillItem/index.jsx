@@ -8,7 +8,7 @@ import "./index.scss";
 import xcx from "../../assets/image/小程序.svg"
 import Node from "../../assets/image/Node.svg"
 import React_ from "../../assets/image/React.svg"
-import TypeScript from "../../assets/image/Typescript.svg"
+import Typescript from "../../assets/image/Typescript.svg"
 import Vue from "../../assets/image/Vue.svg"
 import Uniapp from "../../assets/image/uniapp.png"
 
@@ -17,7 +17,7 @@ const imgUrl = {
   Node,
   React:React_,
   Vue,
-  TypeScript,
+  TypeScript:Typescript,
   uniapp:
   Uniapp
 }
