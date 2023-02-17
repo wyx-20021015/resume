@@ -1,0 +1,45 @@
+@import "../../static/vars.scss";
+
+.info-item {
+  border-bottom: 1px solid $blue;
+  position: relative;
+  padding: 0.3rem 0.1rem;
+  line-height: 1.6rem;
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    transition: all 0.2s;
+  }
+  &:hover {
+    &::before {
+      left: 0.1rem;
+      bottom: 1px;
+      width: 2rem;
+    }
+    &::after {
+      right: 0%;
+      bottom: -3px;
+    }
+  }
+  &::before {
+    left: -0.4em;
+    bottom: -3px;
+    width: 2em;
+    background-color: $dark-blue;
+  }
+  &::after {
+    right: -0.3em;
+    bottom: 1px;
+    width: 1.3em;
+    background-color: $blue;
+  }
+  .item-name {
+    font-weight: bold;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+  }
+}

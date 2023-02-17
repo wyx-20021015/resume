@@ -1,0 +1,16 @@
+.summary {
+  .summary-main {
+    padding: 2rem 2% 1rem;
+    p {
+      word-wrap: break-word;
+      word-break: break-all;
+      text-indent: 1rem;
+    }
+    ul {
+      padding: 1rem 0 1rem 2rem;
+      li {
+        padding: 0.2rem 0;
+      }
+    }
+  }
+}

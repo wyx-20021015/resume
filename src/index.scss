@@ -1,0 +1,80 @@
+@import "static/vars.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  color: $text-light;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+  background-color: $bg-light;
+  overflow-x: hidden;
+
+  .resume {
+    max-width: 1000px;
+    margin: auto;
+    min-height: 100vh;
+
+    .heading {
+      text-align: center;
+      padding: 2rem 0;
+    }
+
+    .section {
+      padding: 0rem 1rem 1.5rem;
+    }
+
+    .footer {
+      text-align: center;
+      padding-bottom: 1rem;
+
+      .footer-item {
+        color: #8888;
+        padding: 0 1rem;
+        border-right: 1px solid;
+        text-decoration: none;
+
+        &:last-child {
+          border: none;
+        }
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: #0366d6;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  *::selection {
+    background-color: $text-light;
+    color: $bg-light;
+    text-shadow: none;
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: $text-light $bg-light;
+  }
+
+  *::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: $bg-light;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: $bg-light;
+    border-radius: 20px;
+    border: 3px solid $text-light;
+  }
+}
