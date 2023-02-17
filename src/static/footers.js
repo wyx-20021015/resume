@@ -8,7 +8,7 @@
 const footerLinks = [
   {
     content: '简历链接',
-    href: 'http://resume.xiong35.cn'
+    href: 'http://resume.wangyixuan2002.cn'
   },
   {
     content: '博客链接',
