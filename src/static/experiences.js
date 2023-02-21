@@ -19,6 +19,10 @@ const experiences = [
       {
         name: '代码地址',
         href: 'https://github.com/wjywy/miniAntd'
+      },
+      {
+        name: '部署地址',
+        href: 'http://cheesi.wangyixuan2002.cn/'
       }
     ]
   },
