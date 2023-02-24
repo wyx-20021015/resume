@@ -14,7 +14,7 @@ const experiences = [
     from: '2023/1/30',
     to: '2023/2/16',
     description:
-      '合作完成的react组件库，使用tsx编写组件逻辑，dumi编写文档站，jest+rtl+ts-jest单元测试，less编写样式。',
+      '合作完成的react组件库，作为某青训营的作品。队内担任队长，负责技术选型、环境搭建和部分组件的开发。使用tsx编写组件逻辑，dumi编写文档站，jest+rtl+ts-jest单元测试，less编写样式。',
     links: [
       {
         name: '代码地址',
@@ -31,7 +31,7 @@ const experiences = [
     from: '2022/10/16',
     to: '2022/11/1',
     description:
-      '校内课程的作业。使用 react 进行前端开发，Koa 编写后台逻辑。前后端都使用Typescript。',
+      '校内课程的作业。使用 react 进行前端开发，Koa 编写后台逻辑，mongodb数据库。前后端都使用Typescript。包括增删改查、按需筛选等常见功能。',
     links: [
       { name: 'github地址', href: 'https://github.com/wyx-20021015/cms-fe' }
     ]
