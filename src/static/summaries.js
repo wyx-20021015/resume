@@ -8,7 +8,7 @@
 const summaries = [
   {
     brief: '有扎实的 JS/HTML/CSS 基础',
-    detail: '读过多本相关书籍'
+    detail: '读过多本相关书籍。'
   },
   {
     brief: '熟悉前端框架',
@@ -28,10 +28,12 @@ const summaries = [
     detail: '会在项目中抽离出通用组件、布局、工具函数、高阶函数等'
   },
   {
-    brief: '熟练使用 TypeScript'
+    brief: '熟练使用 TypeScript。',
+    detail: '熟悉继承、泛型、重载函数、类型体操等高级用法'
   },
   {
-    brief: '掌握基本算法和数据结构'
+    brief: '掌握计算机基础知识。',
+    detail: '理解计网、操作系统、数据结构等计算机核心知识。'
   }
 ]
 
