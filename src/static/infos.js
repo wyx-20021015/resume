@@ -13,7 +13,8 @@ const infos = [
   { name: '邮箱', value: '2603243185@qq.com' },
   { name: '学校', value: '华中科技大学' },
   { name: '专业', value: '计算机科学与技术' },
-  { name: '年级', value: '2024届' }
+  { name: '年级', value: '2024届' },
+  { name: '电子简历', value: 'http://resume.wangyixuan2002.cn' }
 ]
 
 export default infos
