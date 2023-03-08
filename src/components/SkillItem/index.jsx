@@ -11,6 +11,7 @@ import React_ from "../../assets/image/React.svg"
 import Typescript from "../../assets/image/TypeScript.svg"
 import Vue from "../../assets/image/Vue.svg"
 import Uniapp from "../../assets/image/uniapp.png"
+import webpack from "../../assets/image/webpack.jpg"
 
 const imgUrl = {
   小程序:xcx,
@@ -18,8 +19,8 @@ const imgUrl = {
   React:React_,
   Vue,
   TypeScript:Typescript,
-  uniapp:
-  Uniapp
+  uniapp:Uniapp,
+  webpack
 }
 
 

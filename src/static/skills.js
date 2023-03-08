@@ -30,6 +30,10 @@ const skills = [
   {
     name: '小程序',
     level: 3
+  },
+  {
+    name: 'webpack',
+    level: 3
   }
 ]
 
