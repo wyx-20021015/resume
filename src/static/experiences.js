@@ -44,7 +44,7 @@ const experiences = [
     from: '2022/10/16',
     to: '2022/11/1',
     description:
-      '使用 react 进行前端开发，Koa 编写后台逻辑，mongodb数据库;前后端都使用Typescript，进行严格类型约束;包括增删改查、上传文件、markdown预览等常见功能;通过node-shcedule做到服务器自检;cookie-session鉴权,koa-static搭建服务解决跨域;puppeteer爬取真实数据;使用antd组件库来布局。',
+      '使用 react 进行前端开发，Koa 编写后台逻辑，mongodb数据库;前后端都使用Typescript，进行严格类型约束;redux管理全局状态;包括增删改查、上传文件、markdown预览等常见功能;通过node-shcedule做到服务器自检;cookie-session鉴权,koa-static搭建服务解决跨域;puppeteer爬取真实数据;使用antd组件库来布局。',
     links: [
       { name: 'github地址', href: 'https://github.com/wyx-20021015/cms-fe' }
     ]
@@ -53,7 +53,7 @@ const experiences = [
     name: '个人博客',
     from: '2022/9/17',
     to: '2022/10/1',
-    description: `个人独立完成的博客网站;使用 Vue3 + tsx + Koa 开发，使用 TS 编写前后端;使用jwt鉴权，非对称加密;vite打包，开启gzip，代码压缩以及分包;Vue3 和 tsx 结合能写出更有表现力的代码，利用js语法特性，跳出了api的束缚。;此项目中的一些动画锻炼了 CSS 能力。;使用ubuntu + jenkins + nginx部署在服务器上，持续使用并维护。`,
+    description: `个人独立完成的博客网站;使用 Vue3 + tsx + Koa 开发，使用 TS 编写前后端;Vuex管理全局状态;使用jwt鉴权，非对称加密;vite打包，开启gzip，代码压缩以及分包;Vue3 和 tsx 结合能写出更有表现力的代码，利用js语法特性，跳出了api的束缚。;此项目中的一些动画锻炼了 CSS 能力。;使用ubuntu + jenkins + nginx部署在服务器上，持续使用并维护。`,
     links: [
       {
         name: '部署地址',
