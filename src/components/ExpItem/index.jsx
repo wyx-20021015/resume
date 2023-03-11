@@ -21,7 +21,8 @@ export default class ExperienceItem extends Component {
           <span className="from">{from}</span>
           <span className="to">{to}</span>
         </p>
-        <p className="description">{description}</p>
+        {description.map(t=><p className="description">{t}</p>)}
+        {/* <p className="description">{description}</p> */}
         <ul className="links">
           {links.map((link) => (
             <li key={link.href}>
