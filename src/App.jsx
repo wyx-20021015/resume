@@ -6,6 +6,7 @@ import Summary from "./parts/Summary";
 import Skills from "./parts/Skills";
 import Experience from "./parts/Experience";
 import footerLinks from "./static/footers";
+import Shixi from "./parts/Shixi"
 
 export default class App extends Component {
   render() {
@@ -17,6 +18,7 @@ export default class App extends Component {
         <Info />
         <Summary />
         <Skills />
+        <Shixi />
         <Experience />
         
         <footer className="footer">
